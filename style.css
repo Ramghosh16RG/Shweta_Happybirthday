@@ -16,13 +16,16 @@ h1 {
   -webkit-user-select: none;
   user-select: none;
 }
-#h2{
-  z-index: 99999;
-  color: white;
-  margin-bottom: 350px;
-  margin-top: -350px;
-  margin-right: -460px;
-  margin-left: 460px;
-  font-size: 50px;
+h2{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 4em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
 
 }
